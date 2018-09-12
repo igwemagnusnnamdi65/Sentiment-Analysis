@@ -1,5 +1,11 @@
 # Sentiment-Analysis
 Python for data science in this project I am building my own Twitter Sentiment Analyzer in just 14 lines of Python. It will be able to search twitter for a list of tweets about any topic we want, then analyze each tweet to see how positive or negative it's emotion is. 
+
+Above all The code uses the tweepy library to access the Twitter API and the TextBlob library to perform Sentiment Analysis on each Tweet. 
+
+
+
+
 import tweepy
 from textblob import TextBlob
 
